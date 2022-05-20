@@ -15,17 +15,18 @@ set                    -> set                     -> {"cat", 99}
 
 # *-*-*-*-*--------------- Numbers **************************
 
-# Integer
+# Integer 整数
 age = 38
 print(age)
 print(type(age))
 
-# Floats
+# Floats　浮動小数だっけ？
 grade = 8.9
 print(grade)
 print(type(grade))
 
 # *-*-*-*-*--------------- Booleans **************************
+# T, Fは大文字
 alarm = True
 offline = False
 print(alarm, offline)

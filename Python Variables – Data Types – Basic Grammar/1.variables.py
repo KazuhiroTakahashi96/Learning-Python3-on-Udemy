@@ -13,3 +13,6 @@ print(my_grade)
 # *-*-*-*-*-*-*-* Boolean
 am_i_young = True
 print(am_i_young)
+
+my_hobby = 'sleep'
+print(my_hobby)

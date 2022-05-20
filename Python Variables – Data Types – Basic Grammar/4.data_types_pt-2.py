@@ -14,26 +14,29 @@ set                    -> set                     -> {"cat", 99}
 """
 
 # *-*-*-*-*--------------- List ********************************
+# []に囲まれて、,で区切る　JSでいうところの配列？
 # Ordered
 mixed = [1, 2, 3.2, 5.4, True, "Muslim Helalee", [1, 2, 3]]
 # print(mixed)
 # print(type(mixed))
 
 # *-*-*-*-*--------------- Dictionary **************************
+# key: value の組み合わせで、 ,で区切る　JSのオブジェクト？
 # unordered
 user_info = {"user_name": "awesome50", "user_id": 56}
-# print(user_info)
+# print(user_info["user_name"])
 # print(type(user_info))
 
 # *-*-*-*-*--------------- Tuple *******************************
+# tupleはimmutable(不変)
 # ordered
 mixed_tuple = (1, 2, 3.2, 5.4, True, "Muslim Helalee", [1, 2, 3])
-# print(mixed_tuple)
-# print(type(mixed_tuple))
-
+print(mixed_tuple)
+print(type(mixed_tuple))
 
 # *-*-*-*-*--------------- Set *********************************
+# key: valueの組み合わせではなく、itemの羅列？
 # unordered
 mixed_set = {1, 2, 3.2, 5.4, "Python", "Muslim Helalee", 101}
-print(mixed_set)
-print(type(mixed_set))
+# print(mixed_set)
+# print(type(mixed_set))

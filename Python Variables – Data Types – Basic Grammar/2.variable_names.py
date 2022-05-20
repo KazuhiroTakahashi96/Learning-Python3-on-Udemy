@@ -7,6 +7,7 @@
 movie_rating = 8.5
 
 # 2- Python convention is to use lowercase letters
+# 変数名は全部小文字?
 my_name = "Muslim Helalee"
 
 # 3- Python is snake case
@@ -17,5 +18,5 @@ user_info = "Online"
 # 15street # error
 
 # 5- Following the pep8 standards
-
+# =の前後はスペース？
 to_do = "Buy Coffee"
