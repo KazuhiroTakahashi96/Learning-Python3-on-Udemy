@@ -14,20 +14,20 @@ def outer():
 
     def inner():
         inner_number = 200
-        inner_number = "Jack"
-        # print("Inner number =", inner_number)
+        # inner_number = "Jack"
+        print("Inner number =", inner_number)
 
         outer_number = 500
         # print(id(outer_number))
-        # print("Outer number =", outer_number)
+        print("Outer number =", outer_number)
 
     inner()
 
 
 global_number = 300
-print(global_number)
+print("Global number is", global_number)
 
 
 outer()
 
-print(global_number)
+print("Global number is", global_number)

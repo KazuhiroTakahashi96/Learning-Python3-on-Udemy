@@ -4,7 +4,7 @@
 # \'
 # \"
 # \\
-# \n
+# \n 改行
 
 # story_desc = "It's a touching story"
 # story_desc = "It\"s a touching story"
