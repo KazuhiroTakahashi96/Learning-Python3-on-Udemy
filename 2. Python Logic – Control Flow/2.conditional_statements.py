@@ -8,7 +8,7 @@ if (boolean expression):
 """
 
 # ****************------------- Example ->>> Check for a single condition
-# temperature = 35
+# temperature = 35 
 # temperature = 29
 # temperature = 24
 # temperature = -10
@@ -29,6 +29,11 @@ if (boolean expression):
 # else:
 #     print("Cold")
 
+# if temperature > 30:
+#     print('hello')
+# else:
+#     print('wat')
+
 # ****************------------- Example ->>> Check for mul
 # temperature = 55
 # temperature = 35
@@ -36,8 +41,8 @@ if (boolean expression):
 # temperature = 25
 # temperature = 24
 # temperature = 20
-temperature = 19
-temperature = -10
+# temperature = 19
+temperature = 0
 
 
 if temperature >= 35:
