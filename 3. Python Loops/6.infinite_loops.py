@@ -4,7 +4,7 @@
 
 # ****************----------------- Example 14
 
-# number = 100
+number = 100
 
-# while number > 1:
-#     print(number)
+while number > 1:
+    print(number)
