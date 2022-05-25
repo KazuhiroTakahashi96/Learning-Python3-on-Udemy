@@ -17,7 +17,7 @@ print(collection)
 
 # ******------****** Example 10
 # print(collection[0:2])
-# print(collection[0:4])
+# print(collection[2:4])
 # print(collection[:5])
 # print(collection[0:])
 # print(collection[:])
@@ -25,8 +25,9 @@ print(collection)
 
 # ******------****** Example 11
 
-print(collection[::2])
-print(collection[::3])
-print(collection[::-1])
+# print(collection[::2])
+# print(collection[::3])
+# print(collection[::-1])
 print(collection[2::2])
+# index2から5まで（5は含まない）2ずつ（一つ飛ばし）
 print(collection[2:5:2])
